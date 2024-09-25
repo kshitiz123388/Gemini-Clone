@@ -46,10 +46,12 @@
             <button class="icon material-symbols-outlined">send</button>
         </div>
         <div class="action-buttons">
-          <span class="micButton icon material-symbols-outlined">mic</span> <!-- Microphone button -->
-            <span id="toggle-theme-button" class="icon material-symbols-outlined">light_mode</span>
-            <span id="delete-chat-button" class="icon material-symbols-outlined">delete</span>
-        </div>
+          <span class="icon material-symbols-outlined" id="upload-icon">add_photo_alternate</span>
+          <span id="toggle-theme-button" class="icon material-symbols-outlined">light_mode</span>
+          <span id="delete-chat-button" class="icon material-symbols-outlined">delete</span>
+          <input type="file" id="image-upload" accept="image/*" style="display: none;" />
+      </div>
+      
     </form>
     <p class="disclaimer-text">
         Gemini may display inaccurate info, including about people, so double-check its responses.
@@ -60,3 +62,5 @@
   <script src="./src/script.js"></script>
 </body>
 </html>
+
+<!-- <button class="icon material-symbols-outlined">mic</button> -->
