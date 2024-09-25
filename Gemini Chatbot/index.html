@@ -36,50 +36,26 @@
   </header>
 
   <!-- Chat List / Container -->
-  <div class="chat-list">
-    <div class="message outgoing">
-      <div class="message-content">
-        <img src="./images/user.jpg" alt="User Image" class="avatar">
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, totam.</p>
-      </div>
-    </div>
-    <div class="message incoming">
-      <div class="message-content">
-        <img src="./images/gemini.svg" alt="Gemini Image" class="avatar">
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, totam.</p>
-      </div>
-      <span class="icon material-symbols-outlined">content_copy</span>
-    </div>
-    <!-- <div class="message incoming loading">
-      <div class="message-content">
-        <img src="./images/gemini.svg" alt="Gemini Image" class="avatar">
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, totam.</p>
-        <div class="loading-indicator">
-          <div class="loading-bar"></div>
-          <div class="loading-bar"></div>
-          <div class="loading-bar"></div>
-        </div>
-      </div>
-      <span class="icon material-symbols-outlined">content_copy</span>
-    </div> -->
-  </div>
+  <div class="chat-list"></div>
 
   <!-- Typing area -->
   <div class="typing-area">
- <form action="#" class="typing-form">
-	 <div class="input-wrapper">
-      <input type="text" placeholder="Enter a prompt here" class="typing-input" required>
-      <button class="icon material-symbols-outlined">send</button>
-    </div>
-    <div class="action-buttons">
-      <span class="icon material-symbols-outlined">light_mode</span>
-      <span class="icon material-symbols-outlined">delete</span>
-    </div>
- </form>
- <p class="disclaimer-text">
-  Gemini may display inaccurate info, including about people, so double-check its responses.
- </p>
-  </div>
+    <form action="#" class="typing-form">
+        <div class="input-wrapper">
+            <input type="text" placeholder="Enter a prompt here" class="typing-input" required>
+            <button class="icon material-symbols-outlined">send</button>
+        </div>
+        <div class="action-buttons">
+          <span class="micButton icon material-symbols-outlined">mic</span> <!-- Microphone button -->
+            <span id="toggle-theme-button" class="icon material-symbols-outlined">light_mode</span>
+            <span id="delete-chat-button" class="icon material-symbols-outlined">delete</span>
+        </div>
+    </form>
+    <p class="disclaimer-text">
+        Gemini may display inaccurate info, including about people, so double-check its responses.
+    </p>
+</div>
+
 
   <script src="./src/script.js"></script>
 </body>
